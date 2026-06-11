@@ -11,25 +11,68 @@
     "tagline": "Building real-time, decentralized intelligent systems — from federated learning to the Internet of Drones.",
     "avatarInitials": "RM",
     "links": [
-      { "label": "Google Scholar", "url": "https://scholar.google.com/citations?user=Iv8gjG8AAAAJ&hl=en", "icon": "scholar" },
-      { "label": "Personal Site", "url": "https://sites.google.com/view/rahulmishracse/home", "icon": "globe" },
-      { "label": "LinkedIn", "url": "https://in.linkedin.com/in/rahul-mishra-052205146", "icon": "linkedin" },
-      { "label": "IIT Patna", "url": "https://iitp.ac.in/departments/computer-science-engineering/faculty/profile?id=93", "icon": "building" }
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=Iv8gjG8AAAAJ&hl=en",
+        "icon": "scholar"
+      },
+      {
+        "label": "Personal Site",
+        "url": "https://sites.google.com/view/rahulmishracse/home",
+        "icon": "globe"
+      },
+      {
+        "label": "LinkedIn",
+        "url": "https://in.linkedin.com/in/rahul-mishra-052205146",
+        "icon": "linkedin"
+      },
+      {
+        "label": "IIT Patna",
+        "url": "https://iitp.ac.in/departments/computer-science-engineering/faculty/profile?id=93",
+        "icon": "building"
+      }
     ]
   },
   "metrics": [
-    { "label": "Citations", "value": "1,290+" },
-    { "label": "Research Areas", "value": "6" },
-    { "label": "Selected Pubs", "value": "8" }
+    {
+      "label": "Citations",
+      "value": "1,290+"
+    },
+    {
+      "label": "Research Areas",
+      "value": "6"
+    },
+    {
+      "label": "Publications",
+      "value": "47"
+    }
   ],
   "biography": "Dr. Rahul Mishra currently holds a faculty position in the Department of Computer Science and Engineering at IIT Patna, where he also serves as the Head of the Computer Center. His research focuses on machine learning and deep learning, particularly in system deployment. He has extensively delved into real-world deployment challenges with a specific emphasis on federated learning perspectives, edge computation, and practical drone applications. His doctoral research spanned the broad domain of sensor data analytics and applied artificial intelligence.",
   "researchInterests": [
-    { "label": "Federated Learning", "accent": "blue" },
-    { "label": "Edge Computation", "accent": "teal" },
-    { "label": "Applied Artificial Intelligence", "accent": "violet" },
-    { "label": "Sensor Data Analytics", "accent": "amber" },
-    { "label": "System Deployment", "accent": "green" },
-    { "label": "Internet of Drones", "accent": "rose" }
+    {
+      "label": "Federated Learning",
+      "accent": "blue"
+    },
+    {
+      "label": "Edge Computation",
+      "accent": "teal"
+    },
+    {
+      "label": "Applied Artificial Intelligence",
+      "accent": "violet"
+    },
+    {
+      "label": "Sensor Data Analytics",
+      "accent": "amber"
+    },
+    {
+      "label": "System Deployment",
+      "accent": "green"
+    },
+    {
+      "label": "Internet of Drones",
+      "accent": "rose"
+    }
   ],
   "experience": [
     {
@@ -61,73 +104,386 @@
     {
       "id": 101,
       "title": "Towards Understanding the Impact of Participant and its Wearable Devices in Federated Learning",
-      "authors": "Rahul Mishra and H. P. Gupta",
+      "authors": "R. Mishra and H. P. Gupta",
       "journal": "IEEE Transactions on Mobile Computing",
       "year": 2025,
       "type": "Journal"
     },
     {
       "id": 102,
-      "title": "Resource Aware Clustering for Tackling the Heterogeneity of Participants in Federated Learning",
-      "authors": "Rahul Mishra, H. P. Gupta, G. Banga, and S. K. Das",
-      "journal": "IEEE Transactions on Parallel and Distributed Systems",
-      "year": 2024,
+      "title": "Fed-NL: A Federated Learning Approach to Suppress Noise in Participant Datasets to Reduce Communication Rounds for Convergence",
+      "authors": "R. Mishra and H. P. Gupta",
+      "journal": "IEEE Transactions on Mobile Computing (Accepted)",
+      "year": 2025,
       "type": "Journal"
     },
     {
       "id": 103,
-      "title": "Designing and Training of Lightweight Neural Networks on Edge Devices using Early Halting in Knowledge Distillation",
-      "authors": "Rahul Mishra and H.P. Gupta",
-      "journal": "IEEE Transactions on Mobile Computing",
+      "title": "Fed-RAC: Resource-Aware Clustering for Tackling Heterogeneity of Participants in Federated Learning",
+      "authors": "R. Mishra, H. P. Gupta, G. Banga, and S. K. Das",
+      "journal": "IEEE Transactions on Parallel and Distributed Systems",
       "year": 2024,
       "type": "Journal"
     },
     {
       "id": 104,
       "title": "A Model Personalization-based Federated Learning Approach for Heterogeneous Participants with Variability in the Dataset",
-      "authors": "Rahul Mishra and H.P. Gupta",
+      "authors": "Rahul Mishra and Hari Prabhat Gupta",
       "journal": "ACM Transactions on Sensor Networks",
       "year": 2024,
       "type": "Journal"
     },
     {
       "id": 105,
-      "title": "A Federated Learning Approach with Imperfect Labels in LoRa-based Transportation Systems",
-      "authors": "R. Kumar, Rahul Mishra, and H. P. Gupta",
-      "journal": "IEEE Transactions on Intelligent Transportation Systems",
+      "title": "Designing and Training of Lightweight Neural Networks on Edge Devices Using Early Halting in Knowledge Distillation",
+      "authors": "R. Mishra and H. P. Gupta",
+      "journal": "IEEE Transactions on Mobile Computing",
       "year": 2024,
       "type": "Journal"
     },
     {
       "id": 106,
-      "title": "A Federated Learning Approach to Minimize Communication Rounds Using Noise Rectification",
-      "authors": "Rahul Mishra and H. P. Gupta",
-      "journal": "IEEE Wireless Communications and Networking Conference (WCNC), Dubai, UAE",
-      "year": 2024,
-      "type": "Conference"
+      "title": "Transforming Large-Size to Lightweight Deep Neural Networks for IoT Applications",
+      "authors": "Rahul Mishra and Hari Prabhat Gupta",
+      "journal": "ACM Computing Surveys",
+      "year": 2023,
+      "type": "Journal"
     },
     {
       "id": 107,
-      "title": "i-Care: A Multi-Modal Data Integration Approach for Activity Monitoring",
+      "title": "Leveraging Augmented Intelligence of Things to Enhance Lifetime of UAV-Enabled Aerial Networks",
+      "authors": "R. Mishra, H. P. Gupta, R. Kumar, and T. Dutta",
+      "journal": "IEEE Transactions on Industrial Informatics",
+      "year": 2023,
+      "type": "Journal"
+    },
+    {
+      "id": 108,
+      "title": "A Task Offloading and Reallocation Scheme for Passenger Assistance Using Fog Computing",
+      "authors": "R. Mishra, H. P. Gupta, P. Kumari, D. Y. Suh, and M. J. Piran",
+      "journal": "IEEE Transactions on Network and Service Management",
+      "year": 2022,
+      "type": "Journal"
+    },
+    {
+      "id": 109,
+      "title": "Locomotion Mode Recognition Using Sensory Data with Noisy Labels: A Deep Learning Approach",
+      "authors": "R. Mishra, A. Gupta, and H. P. Gupta",
+      "journal": "IEEE Transactions on Mobile Computing",
+      "year": 2023,
+      "type": "Journal"
+    },
+    {
+      "id": 110,
+      "title": "A Sensors Based Deep Learning Model for Unseen Locomotion Mode Identification using Multiple Semantic Matrices",
+      "authors": "R. Mishra, A. Gupta, H. P. Gupta, and T. Dutta",
+      "journal": "IEEE Transactions on Mobile Computing",
+      "year": 2022,
+      "type": "Journal"
+    },
+    {
+      "id": 111,
+      "title": "A Road Health Monitoring System Using Sensors in Optimal Deep Neural Network",
+      "authors": "R. Mishra, H. P. Gupta, and T. Dutta",
+      "journal": "IEEE Sensors Journal",
+      "year": 2021,
+      "type": "Journal"
+    },
+    {
+      "id": 112,
+      "title": "Analysis, Modeling, and Representation of COVID-19 Spread: A Case Study on India",
+      "authors": "R. Mishra, H. P. Gupta, and T. Dutta",
+      "journal": "IEEE Transactions on Computational Social Systems",
+      "year": 2021,
+      "type": "Journal"
+    },
+    {
+      "id": 113,
+      "title": "Optimizing Activity Recognition Through Dominant Axis Identification in Inertial Sensors",
+      "authors": "R. Mishra, A. Soni, A. Jain, P. Lalwani, and R. Shah",
+      "journal": "IEEE Sensors Letters",
+      "year": 2024,
+      "type": "Journal"
+    },
+    {
+      "id": 114,
+      "title": "A Machine Learning-based Overlay Technique for Improving the Mechanism of Road Traffic Prediction using Global Positioning System",
+      "authors": "A. D. Pandey, R. Mishra, et al.",
+      "journal": "Innovative Infrastructure Solutions",
+      "year": 2024,
+      "type": "Journal"
+    },
+    {
+      "id": 115,
+      "title": "Huber SVR-Based Hybrid Models for Significant Wave Height Forecasting Using Buoy Sensors",
+      "authors": "P. Anand, S. Jain, and R. Mishra",
+      "journal": "IEEE Sensors Letters",
+      "year": 2023,
+      "type": "Journal"
+    },
+    {
+      "id": 116,
+      "title": "Machine Learning-Based Interference Mitigation in Long-Range Networks for High-Ceiling Smart Buildings",
+      "authors": "R. Kumar, H. P. Gupta, R. Mishra, and S. Pandey",
+      "journal": "IEEE Access",
+      "year": 2023,
+      "type": "Journal"
+    },
+    {
+      "id": 117,
+      "title": "A Federated Learning-Based Patient Monitoring System in Internet of Medical Things",
+      "authors": "C. Singh, R. Mishra, H. P. Gupta, and G. Banga",
+      "journal": "IEEE Transactions on Computational Social Systems",
+      "year": 2023,
+      "type": "Journal"
+    },
+    {
+      "id": 118,
+      "title": "A Federated Learning Approach with Imperfect Labels in LoRa-Based Transportation Systems",
+      "authors": "R. Kumar, R. Mishra, and H. P. Gupta",
+      "journal": "IEEE Transactions on Intelligent Transportation Systems",
+      "year": 2023,
+      "type": "Journal"
+    },
+    {
+      "id": 119,
+      "title": "Fair-Select: A Federated Learning Approach to Ensure Fairness in Selection of Participants",
+      "authors": "A. Soni and R. Mishra",
+      "journal": "Multimedia Tools and Applications",
+      "year": 2024,
+      "type": "Journal"
+    },
+    {
+      "id": 120,
+      "title": "Smart Sensing for Agriculture: Applications, Advancements, and Challenges",
+      "authors": "R. Kumar, R. Mishra, H. P. Gupta, and T. Dutta",
+      "journal": "IEEE Consumer Electronics Magazine",
+      "year": 2021,
+      "type": "Journal"
+    },
+    {
+      "id": 121,
+      "title": "An Energy-Efficient River Water Pollution Monitoring System in Internet of Things",
+      "authors": "S. Chopade, H. P. Gupta, R. Mishra, P. Kumari, and T. Dutta",
+      "journal": "IEEE Transactions on Green Communications and Networking",
+      "year": 2021,
+      "type": "Journal"
+    },
+    {
+      "id": 122,
+      "title": "An Energy Efficient Smart Metering System Using Edge Computing in LoRa Network",
+      "authors": "P. Kumari, R. Mishra, H. P. Gupta, T. Dutta, and S. K. Das",
+      "journal": "IEEE Transactions on Sustainable Computing",
+      "year": 2022,
+      "type": "Journal"
+    },
+    {
+      "id": 123,
+      "title": "Secure Industrial IoT Task Containerization with Deadline Constraint: A Stackelberg Game Approach",
+      "authors": "C. Singh, P. Kumari, R. Mishra, H. P. Gupta, and T. Dutta",
+      "journal": "IEEE Transactions on Industrial Informatics",
+      "year": 2022,
+      "type": "Journal"
+    },
+    {
+      "id": 124,
+      "title": "A Sensors-Based River Water Quality Assessment System Using Deep Neural Network",
+      "authors": "S. Chopade, H. P. Gupta, R. Mishra, A. Oswal, P. Kumari, and T. Dutta",
+      "journal": "IEEE Internet of Things Journal",
+      "year": 2022,
+      "type": "Journal"
+    },
+    {
+      "id": 125,
+      "title": "Jointly Prediction of Activities, Locations, and Starting Times for Isolated Elderly People",
+      "authors": "A. Chaudhary, R. Mishra, H. P. Gupta, and K. K. Shukla",
+      "journal": "IEEE Journal of Biomedical and Health Informatics",
+      "year": 2023,
+      "type": "Journal"
+    },
+    {
+      "id": 126,
+      "title": "A Knowledge Distillation-Based Transportation System for Sensory Data Sharing Using LoRa",
+      "authors": "P. Kumari, R. Mishra, and H. P. Gupta",
+      "journal": "IEEE Sensors Journal",
+      "year": 2021,
+      "type": "Journal"
+    },
+    {
+      "id": 127,
+      "title": "The Internet of Drones in Precision Agriculture: Challenges, Solutions, and Research Opportunities",
+      "authors": "C. Singh, R. Mishra, H. P. Gupta, and P. Kumari",
+      "journal": "IEEE Internet of Things Magazine",
+      "year": 2022,
+      "type": "Journal"
+    },
+    {
+      "id": 128,
+      "title": "Challenges and Solutions in Software-Defined Networking: A Survey",
+      "authors": "S. Saraswat, V. Agarwal, H. P. Gupta, R. Mishra, A. Gupta, and T. Dutta",
+      "journal": "Journal of Network and Computer Applications",
+      "year": 2019,
+      "type": "Journal"
+    },
+    {
+      "id": 129,
+      "title": "Coverage and Connectivity in WSNs: A Survey, Research Issues and Challenges",
+      "authors": "A. Tripathi, H. P. Gupta, T. Dutta, R. Mishra, K. K. Shukla, and S. Jit",
+      "journal": "IEEE Access",
+      "year": 2018,
+      "type": "Journal"
+    },
+    {
+      "id": 301,
+      "title": "i-Care: A Multi-Modal Data Integration Approach for Real-time Surveillance and Voice Assistance to Improve Infant Care",
       "authors": "Rahul Mishra and H. P. Gupta",
       "journal": "ACM BuildSys, Hangzhou, China",
       "year": 2024,
       "type": "Conference"
     },
     {
-      "id": 108,
+      "id": 302,
+      "title": "On Demand Reliability in the Internet of Things Enabled Sensors Networks",
+      "authors": "Rahul Mishra and P. Anand",
+      "journal": "IWCMC, Ayia Napa, Cyprus",
+      "year": 2024,
+      "type": "Conference"
+    },
+    {
+      "id": 303,
+      "title": "A Federated Learning Approach to Minimize Communication Rounds Using Noise Rectification",
+      "authors": "Rahul Mishra and H. P. Gupta",
+      "journal": "IEEE WCNC, Dubai, UAE",
+      "year": 2024,
+      "type": "Conference"
+    },
+    {
+      "id": 304,
+      "title": "A Game Theory-based Transportation System using Fog Computing for Passenger Assistance",
+      "authors": "Rahul Mishra, P. Kumari, H. P. Gupta, Diksha, T. Dutta, D. Y. Suh, and M. J. Piran",
+      "journal": "IEEE WoWMoM",
+      "year": 2021,
+      "type": "Conference"
+    },
+    {
+      "id": 305,
+      "title": "Minimizing Intra-Interference in LoRaWAN for Seamless Connectivity in Ubiquitous Networking",
+      "authors": "Rahul Mishra, S. Godhaneeya, and A. Soni",
+      "journal": "COMSNETS MINDS Workshop",
+      "year": 2024,
+      "type": "Conference"
+    },
+    {
+      "id": 306,
+      "title": "Your Gesture Can Prevent Oops Moments in Online Meetings",
+      "authors": "A. K. Sinha, Rahul Mishra, and H. P. Gupta",
+      "journal": "EWSN, Abu Dhabi, UAE (Poster)",
+      "year": 2024,
+      "type": "Conference"
+    },
+    {
+      "id": 307,
+      "title": "Noise-Resilient Federated Learning: Suppressing Noisy Labels in the Local Datasets of Participants",
+      "authors": "Rahul Mishra, H. P. Gupta, and T. Dutta",
+      "journal": "IEEE INFOCOM (Poster)",
+      "year": 2022,
+      "type": "Conference"
+    },
+    {
+      "id": 308,
+      "title": "An Energy-Efficient Smart Space System using LoRa Network with Deadline and Security Constraints",
+      "authors": "P. Kumari, H. P. Gupta, Rahul Mishra, and S. K. Das",
+      "journal": "ACM MSWIM",
+      "year": 2021,
+      "type": "Conference"
+    },
+    {
+      "id": 309,
+      "title": "A Network Resource Aware Federated Learning Approach using Knowledge Distillation",
+      "authors": "Rahul Mishra, H. P. Gupta, and T. Dutta",
+      "journal": "IEEE INFOCOM (Poster)",
+      "year": 2021,
+      "type": "Conference"
+    },
+    {
+      "id": 310,
+      "title": "Teacher, Trainee, and Student based Knowledge Distillation Technique for Monitoring Indoor Activities",
+      "authors": "Rahul Mishra, H. P. Gupta, and T. Dutta",
+      "journal": "ACM SenSys (Poster)",
+      "year": 2020,
+      "type": "Conference"
+    },
+    {
+      "id": 311,
+      "title": "Unseen Locomotion Mode Detection Problems using Inertial Sensors",
+      "authors": "Rahul Mishra, H. P. Gupta, and T. Dutta",
+      "journal": "IEEE COMSNETS (PhD Forum)",
+      "year": 2021,
+      "type": "Conference"
+    },
+    {
+      "id": 312,
+      "title": "Game Theory based Early Classification of Rivers using Time Series Data",
+      "authors": "A. Gupta, R. Pal, Rahul Mishra, H. P. Gupta, T. Dutta, and P. Hirani",
+      "journal": "IEEE WF-IoT",
+      "year": 2019,
+      "type": "Conference"
+    },
+    {
+      "id": 313,
+      "title": "A Real-time Precision Agriculture Monitoring System using Mobile Sink in WSNs",
+      "authors": "A. Gupta, H. P. Gupta, P. Kumari, Rahul Mishra, S. Saraswat, and T. Dutta",
+      "journal": "IEEE ANTS",
+      "year": 2018,
+      "type": "Conference"
+    },
+    {
+      "id": 314,
+      "title": "Gateway Discovery in MANET using Machine Learning and Soft Computing: A Survey",
+      "authors": "Rahul Mishra, P. Verma, and R. Kumar",
+      "journal": "ICIIECS",
+      "year": 2017,
+      "type": "Conference"
+    },
+    {
+      "id": 315,
+      "title": "Fault-Tolerant Energy Efficient Power Management System for Smart Room",
+      "authors": "Rahul Mishra and D. Singh",
+      "journal": "ICACSE",
+      "year": 2018,
+      "type": "Conference"
+    },
+    {
+      "id": 316,
+      "title": "When You Come In, You Sit, Stand, or Walk: Leveraging RSSI for Tracking and Control in Ubiquitous Systems",
+      "authors": "S. Sahu, A. K. Sinha, and Rahul Mishra",
+      "journal": "IEEE INDICON",
+      "year": 2024,
+      "type": "Conference"
+    },
+    {
+      "id": 501,
       "title": "Design and Analysis of Algorithms",
       "authors": "Hari Prabhat Gupta and Rahul Mishra",
       "journal": "Textbook · Published under AICTE (NEP)",
       "year": 2024,
       "type": "Book"
+    },
+    {
+      "id": 601,
+      "title": "Racket Sports Activities Monitoring and Corrections using Grip Embedded Sensors and Smartphone",
+      "authors": "Rahul Mishra, T. K. Maiti, A. Jain, P. Lalwani, and R. Shah",
+      "journal": "Patent Filed · Application No. 202411014828",
+      "year": 2024,
+      "type": "Patent"
     }
   ],
   "teaching": [
-    "Introduction to Data Science",
-    "Algorithms",
-    "Drone Data Processing",
-    "Data Analytics and Visualization"
+    "CS244 Introduction to Data Science",
+    "CS2101 Algorithms",
+    "CS6109 Drone Data Processing",
+    "CS2206 Data Analytics and Visualization",
+    "CS2204 IT Worskshop"
   ],
   "honors": [
     {
