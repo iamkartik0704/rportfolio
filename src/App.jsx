@@ -6,6 +6,7 @@ import ResearchInterests from './components/ResearchInterests'
 import ExperienceTimeline from './components/ExperienceTimeline'
 import Publications from './components/Publications'
 import TeachingAndHonors from './components/TeachingAndHonors'
+import ThemeSwitcher from './components/ThemeSwitcher'
 
 // The whole UI is driven by profileData.json — nothing below is hardcoded
 // content. Swap the JSON and the page re-renders for any faculty member.
@@ -23,6 +24,7 @@ export default function App() {
 
   return (
     <div className="min-h-screen">
+      <ThemeSwitcher />
       {/* Hand-drawn SVG ink filters, injected once */}
       <RoughFilters />
 

@@ -45,7 +45,7 @@ function PublicationCard({ pub, i }) {
 
         <div className="min-w-0 flex-1">
           <div className="flex items-start justify-between gap-3">
-            <h4 className="font-pen text-[17px] font-bold leading-snug text-slate-900">
+            <h4 className="font-pen text-[17px] font-bold leading-snug text-slate-900 dark:text-slate-100">
               {pub.title}
             </h4>
             {pub.type ? (
@@ -62,14 +62,14 @@ function PublicationCard({ pub, i }) {
             ) : null}
           </div>
 
-          <p className="font-pen mt-2 flex items-center gap-1.5 text-[15px] text-slate-500">
-            <Users className="h-4 w-4 shrink-0 text-slate-400" aria-hidden="true" />
+          <p className="font-pen mt-2 flex items-center gap-1.5 text-[15px] text-slate-500 dark:text-slate-400">
+            <Users className="h-4 w-4 shrink-0 text-slate-400 dark:text-slate-500" aria-hidden="true" />
             <span className="truncate">{pub.authors}</span>
           </p>
 
           <div className="mt-1 flex flex-wrap items-center gap-x-4 gap-y-1">
-            <span className="font-pen flex items-center gap-1.5 text-[15px] font-semibold text-slate-700">
-              <BookOpen className="h-4 w-4 shrink-0 text-slate-400" aria-hidden="true" />
+            <span className="font-pen flex items-center gap-1.5 text-[15px] font-semibold text-slate-700 dark:text-slate-300">
+              <BookOpen className="h-4 w-4 shrink-0 text-slate-400 dark:text-slate-500" aria-hidden="true" />
               {pub.journal}
             </span>
             <span className="font-marker text-lg font-bold text-blue-600">
@@ -91,7 +91,7 @@ function LoadMoreButton({ expanded, hiddenCount, accent, onClick, controls }) {
       onClick={onClick}
       aria-expanded={expanded}
       aria-controls={controls}
-      className="group/lm font-marker inline-flex items-center gap-2 px-4 py-1.5 text-[15px] font-bold tracking-tight text-slate-700 transition-transform duration-150 hover:-translate-y-0.5 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2"
+      className="group/lm font-marker inline-flex items-center gap-2 px-4 py-1.5 text-[15px] font-bold tracking-tight text-slate-700 dark:text-slate-300 transition-transform duration-150 hover:-translate-y-0.5 hover:text-slate-900 dark:hover:text-slate-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2"
       style={{ filter: 'url(#rough-sm)', backgroundColor: accent.bg, color: accent.ink }}
     >
       <Icon className="h-4 w-4" aria-hidden="true" />
@@ -122,10 +122,10 @@ function PublicationGroup({ group }) {
         >
           <Icon className="h-[18px] w-[18px]" />
         </span>
-        <h3 className="font-marker text-2xl font-bold tracking-tight text-slate-800">
+        <h3 className="font-marker text-2xl font-bold tracking-tight text-slate-800 dark:text-slate-200">
           {group.label}
         </h3>
-        <span className="font-pen text-sm text-slate-400">{items.length}</span>
+        <span className="font-pen text-sm text-slate-400 dark:text-slate-500">{items.length}</span>
       </div>
 
       <ul id={listId} className="space-y-5">

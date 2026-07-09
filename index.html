@@ -17,6 +17,17 @@
       rel="stylesheet"
     />
     <title>Dr. Rahul Mishra · CSE, IIT Patna</title>
+    <!-- Set the theme class before first paint to avoid a flash of the wrong
+         theme. Light is the default; only go dark when the user explicitly chose it. -->
+    <script>
+      (function () {
+        try {
+          if (localStorage.getItem('theme') === 'dark') {
+            document.documentElement.classList.add('dark')
+          }
+        } catch (e) {}
+      })()
+    </script>
   </head>
   <body>
     <div id="root"></div>

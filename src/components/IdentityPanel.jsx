@@ -33,7 +33,7 @@ function Avatar({ identity }) {
 
   return (
     <div
-      className="relative h-20 w-20 shrink-0 -rotate-2 bg-white p-1 shadow-md"
+      className="relative h-20 w-20 shrink-0 -rotate-2 bg-[var(--wb-paper)] p-1 shadow-md"
       style={{ filter: 'url(#rough-sm)' }}
     >
       {showPhoto ? (
@@ -84,13 +84,13 @@ export default function IdentityPanel({ identity, metrics = [] }) {
               </span>
             </div>
 
-            <h1 className="font-marker mt-5 text-4xl font-bold leading-none tracking-tight text-slate-900">
+            <h1 className="font-marker mt-5 text-4xl font-bold leading-none tracking-tight text-slate-900 dark:text-slate-100">
               {identity.name}
             </h1>
             <p className="font-pen mt-2 text-[15px] font-bold text-blue-700">
               {identity.designation}
             </p>
-            <p className="font-pen text-[15px] text-slate-500">{identity.department}</p>
+            <p className="font-pen text-[15px] text-slate-500 dark:text-slate-400">{identity.department}</p>
 
             {identity.tagline ? (
               <p className="font-pen mt-4 border-l-[3px] border-amber-300 pl-3 text-[15px] italic leading-relaxed text-slate-500">
@@ -103,9 +103,9 @@ export default function IdentityPanel({ identity, metrics = [] }) {
               <li>
                 <a
                   href={`mailto:${identity.email}`}
-                  className="font-pen group flex items-center gap-2.5 text-[15px] text-slate-600 hover:text-blue-700"
+                  className="font-pen group flex items-center gap-2.5 text-[15px] text-slate-600 dark:text-slate-400 hover:text-blue-700 dark:hover:text-blue-400"
                 >
-                  <Mail className="h-4 w-4 text-slate-400 group-hover:text-blue-600" aria-hidden="true" />
+                  <Mail className="h-4 w-4 text-slate-400 dark:text-slate-500 group-hover:text-blue-600 dark:group-hover:text-blue-400" aria-hidden="true" />
                   <span className="truncate">{identity.email}</span>
                 </a>
               </li>
@@ -113,16 +113,16 @@ export default function IdentityPanel({ identity, metrics = [] }) {
                 <li>
                   <a
                     href={`tel:${identity.phone.replace(/[^0-9+]/g, '')}`}
-                    className="font-pen group flex items-center gap-2.5 text-[15px] text-slate-600 hover:text-blue-700"
+                    className="font-pen group flex items-center gap-2.5 text-[15px] text-slate-600 dark:text-slate-400 hover:text-blue-700 dark:hover:text-blue-400"
                   >
-                    <Phone className="h-4 w-4 text-slate-400 group-hover:text-blue-600" aria-hidden="true" />
+                    <Phone className="h-4 w-4 text-slate-400 dark:text-slate-500 group-hover:text-blue-600 dark:group-hover:text-blue-400" aria-hidden="true" />
                     <span>{identity.phone}</span>
                   </a>
                 </li>
               ) : null}
               {identity.location ? (
-                <li className="font-pen flex items-center gap-2.5 text-[15px] text-slate-600">
-                  <MapPin className="h-4 w-4 text-slate-400" aria-hidden="true" />
+                <li className="font-pen flex items-center gap-2.5 text-[15px] text-slate-600 dark:text-slate-400">
+                  <MapPin className="h-4 w-4 text-slate-400 dark:text-slate-500" aria-hidden="true" />
                   <span>{identity.location}</span>
                 </li>
               ) : null}
@@ -134,8 +134,8 @@ export default function IdentityPanel({ identity, metrics = [] }) {
                 {metrics.map((m) => (
                   <div key={m.label} className="text-center">
                     <dt className="sr-only">{m.label}</dt>
-                    <dd className="font-marker text-2xl font-bold text-slate-900">{m.value}</dd>
-                    <p className="font-pen mt-0.5 text-xs uppercase tracking-wide text-slate-400">
+                    <dd className="font-marker text-2xl font-bold text-slate-900 dark:text-slate-100">{m.value}</dd>
+                    <p className="font-pen mt-0.5 text-xs uppercase tracking-wide text-slate-400 dark:text-slate-500">
                       {m.label}
                     </p>
                   </div>
@@ -154,8 +154,8 @@ export default function IdentityPanel({ identity, metrics = [] }) {
                       href={link.url}
                       target="_blank"
                       rel="noreferrer noopener"
-                      className="font-pen inline-flex items-center gap-1.5 bg-white px-3 py-1.5 text-sm font-bold text-slate-600 transition-colors hover:bg-blue-50 hover:text-blue-700"
-                      style={{ filter: 'url(#rough-md)', border: '1.4px solid #94a3b8' }}
+                      className="font-pen inline-flex items-center gap-1.5 bg-[var(--wb-paper)] px-3 py-1.5 text-sm font-bold text-slate-600 dark:text-slate-400 transition-colors hover:bg-blue-50 hover:text-blue-700 dark:hover:bg-slate-800 dark:hover:text-blue-300"
+                      style={{ filter: 'url(#rough-md)', border: '1.4px solid var(--wb-ink)' }}
                     >
                       <Icon className="h-3.5 w-3.5" aria-hidden="true" />
                       {link.label}
@@ -174,7 +174,7 @@ export default function IdentityPanel({ identity, metrics = [] }) {
               <li key={a.href}>
                 <a
                   href={a.href}
-                  className="font-pen group flex items-center justify-between px-3 py-2 text-[15px] font-bold text-slate-500 transition-colors hover:text-slate-900"
+                  className="font-pen group flex items-center justify-between px-3 py-2 text-[15px] font-bold text-slate-500 dark:text-slate-400 transition-colors hover:text-slate-900 dark:hover:text-slate-100"
                 >
                   <span className="flex items-center gap-2.5">
                     <span

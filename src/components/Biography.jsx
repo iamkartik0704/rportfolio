@@ -11,7 +11,7 @@ export default function Biography({ text }) {
         hint="~ readme.md"
       />
       <RoughBox filter="sm" color="#334155" className="p-6 sm:p-8">
-        <p className="font-pen text-[17px] leading-8 text-slate-700">{text}</p>
+        <p className="font-pen text-[17px] leading-8 text-slate-700 dark:text-slate-300">{text}</p>
       </RoughBox>
     </section>
   )

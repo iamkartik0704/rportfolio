@@ -13,8 +13,8 @@ export default function RoughBox({
   as: Tag = 'div',
   filter = 'sm',
   tilt = null,
-  color = '#334155',
-  fill = '#ffffff',
+  color = 'var(--wb-ink)',
+  fill = 'var(--wb-paper)',
   strokeWidth = 1.6,
   radius = 14,
   className = '',
@@ -38,13 +38,13 @@ export default function RoughBox({
           borderRadius: radius,
           background: fill,
           // a touch of "hand-drawn" double-stroke feel via inset shadow
-          boxShadow: 'inset 0 0 0 0.5px rgba(51,65,85,0.12)',
+          boxShadow: 'inset 0 0 0 0.5px var(--wb-grid)',
         }}
       />
       {/* Soft drop shadow so notes lift off the canvas (separate, un-warped) */}
       <span
         aria-hidden="true"
-        className="pointer-events-none absolute inset-0 -z-10 translate-x-[3px] translate-y-[4px] rounded-2xl bg-slate-900/[0.06] blur-[1px] transition-transform duration-200 group-hover/rb:translate-x-[5px] group-hover/rb:translate-y-[6px]"
+        className="pointer-events-none absolute inset-0 -z-10 translate-x-[3px] translate-y-[4px] rounded-2xl bg-[var(--wb-shadow)] blur-[1px] transition-transform duration-200 group-hover/rb:translate-x-[5px] group-hover/rb:translate-y-[6px]"
         style={{ borderRadius: radius }}
       />
       {/* Crisp content */}
